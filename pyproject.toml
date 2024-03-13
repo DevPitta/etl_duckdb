@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "etl-duckdb"
+version = "0.1.0"
+description = ""
+authors = ["DevPitta"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.32.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
